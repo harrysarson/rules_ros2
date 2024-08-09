@@ -1,2 +1,4 @@
 
 module(name = "com_github_mvukov_rules_ros2")
+
+bazel_dep(name = "bazel_skylib", version = "1.7.1")
